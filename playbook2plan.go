@@ -37,6 +37,8 @@ func main() {
 	playbookFile, err := os.Open("./playbookExamples/nginx.yaml")
 	check(err)
 
+	// Ansible example Playbooks: https://github.com/ansible/ansible-examples
+
 	// Check https://github.com/go-yaml/yaml
 	// https://godoc.org/gopkg.in/yaml.v2
 	// YAML Syntax: https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
