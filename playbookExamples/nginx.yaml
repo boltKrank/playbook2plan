@@ -6,7 +6,7 @@
   tasks:
   - name: Add epel-release repo
     yum:
-      name: epel-release
+      name: epel-release    
       state: present
 
   - name: Install nginx
